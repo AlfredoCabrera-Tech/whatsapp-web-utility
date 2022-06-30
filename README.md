@@ -39,7 +39,7 @@ Continue regular steps 3 - 6 above.
 
 ## Current Working Version
 
-Current version is 1.1.0
+Current version is 1.2.0
 
 ## Why Was This App Made
 
@@ -82,6 +82,7 @@ This app is conceived to prioritize the ease of use and here's how it's broken d
 ## Optimizations
 
 - On version 1.0.0 the button meant to open the new chat on the same window was programmed without considering Chrome's way of managing and identifying tabs. This means it didn't contemplate the fact that the extension's window itself is not the same as the active tab. Version 1.1.0 solved this issue by adopting Chrome's API's functionality and tabs behaviour.
+- On version 1.1.0 the app opened an internal Whatsapp site where the user had to click on a button to continue to chat. This process has been bypassed in version 1.2.0. Now the app will lead the user directly to chat.
 
 ## Future Updates
 
