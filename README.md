@@ -1,0 +1,65 @@
+# Whatsapp Web Utility
+
+This is an app designed for productivity, adding user-friendly functionality to WhatsApp Web's API, packaged conveniently into a Chrome extension.
+
+**Link to project:** https://whatsapp-web-utility.netlify.app
+
+
+![App Screenshot](/assets/Screenshot.png)
+
+
+## Why It's Made
+
+WhatsApp Web offers an amazing (and well established) app that makes for a great complement for their main version designed for mobile. It's a productivity tool that helps you stay in your PC and manage your chats from there.
+
+However there's one flaw that disrupts the productivity flow:
+
+**Whenever the user wants to open a chat that's not cached by the web app, they have to do it from their mobile.**
+
+This Chrome extension is designed to increase the level of productivity offered by WhatsApp Web App allowing the user to simply type in the desired phone number and even the first message's text content and letting them decide if they want to open the new chat on a new tab or on the current one.
+
+This way, the user has one less reason to get away from their workflow and increase their productivity, ease of use and overall experience.
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript, Chrome API, WhatsApp API
+
+This app is conceived to prioritize the ease of use and here's how it's broken down.
+
+**HTML:**
+
+- A drop-down menu populated by different countries, this will generate the appropriate prefix corresponding to each country's phone number system.
+- A text input field where the phone number will be typed (or pasted), designed to ignore any non-numeric character -thought to facilitate copying a number and pasting it here irrespective of the original format-.
+- A text area designed for the user to type in (or paste) the desired text content for the first message. This text gets processed and parsed into a URS digestible for WhatsApp Web API.
+- A button made to open the new chat on a new tab.
+- A button made to open the new chat on the current tab without altering that tab's current history, allowing the user to go back if desired.
+- A button made to save the number under a name typed by the user (currently on development).
+
+**JavaScript:**
+
+- A function to process the user's country selection and assigns the correct prefix to the phone number.
+- A function to process the phone number ridding it of any non-numeric character.
+- A function to parse the user's text as a query string for the appropriate use of WhatsApp Web API
+- Every button's functionality as it pertains to the appropriate method selected by the user to open the new chat (new tab or current tab), following Chrome API's tools to manage the tabs behaviour.
+
+**CSS:** 
+
+-Currently on development-
+
+## Optimizations
+
+
+
+## Future Updates
+
+- The styling and aesthetic aspects of this app are currently under development and will be incorporated in future revisions.
+
+- The "Save" button is currently disabled and the ability for numbers and names to be saved, rendered, and to persist is currently under development and will be incorporated in future revisions. 
+
+## Lessons Learned:
+
+- Even though this app focuses on functionality and ease-of-use, the aesthetic part plays a very important role and significantly contributes to the user's overall experience.
+
+- Chrome's API is deeply interesting and often overlooked. As a developer constantly working towards improving and making impactful products, it's worth it to learn more about it and incorporate it into regular use.
+
+- Tools that make the user's workflow easier/better can ultimately improve their lives. Apps such as this, as small as they may seem, can still be impactful and that's a responsibility we, as Software Engineers, cannot overlook.
