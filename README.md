@@ -6,13 +6,13 @@ This is an app designed for productivity, adding user-friendly functionality to 
 
 ![App Screenshot](/assets/Screenshot.png)
 
-## 
-
 ## Installation
 
 Check our [step-by-step installation guide](/Installation.md).
 
+## Current Working Version
 
+Current version is 1.1.0
 
 ## Why It's Made
 
@@ -53,6 +53,8 @@ This app is conceived to prioritize the ease of use and here's how it's broken d
 -Currently on development-
 
 ## Optimizations
+
+- On version 1.0.0 the button meant to open the new chat on the same window was programmed without considering Chrome's way of managing and identifying tabs. This means it didn't contemplate the fact that the extension's window itself is not the same as the active tab. Version 1.1.0 solved this issue by adopting Chrome's API's functionality and tabs behaviour.
 
 ## Future Updates
 
