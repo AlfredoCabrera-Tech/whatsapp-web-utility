@@ -29,12 +29,12 @@ let open = () => {
   let phoneNum = `${countries.value}${inputNum.value}`
    
   if(inputMsg.value == ''){
-    window.location.href = `https://wa.me/${phoneNum}`
+    chrome.tabs.update({ url: `https://wa.me/${phoneNum}`})
     inputNum.value = ''
   } else{
     let msgArr = inputMsg.value.split(' ')
     let msgURL = msgArr.join('%20')
-    window.location.href = `https://wa.me/${phoneNum}?text=${msgURL}`
+    chrome.tabs.update({ url: `https://wa.me/${phoneNum}?text=${msgURL}`})
     inputNum.value = ''
     inputMsg.value = ''
   }
