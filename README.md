@@ -16,7 +16,7 @@ The installation process is simple. Since this extension is currently being appr
    - ZIP version if you're using Windows or MacOS.
    - tar.gz version if you're using Linux.
 
-3. After the file has downloaded, decompress the folder (Unzip it), it should create a new -unzipped- folder with the same name as the original file.
+3. After the file has downloaded, extract the folder (Unzip it), it should create a new -unzipped- folder with the same name as the original file.
 
 4. Open Chrome Browser and navigate to [chrome://extensions](chrome://extensions).
    
