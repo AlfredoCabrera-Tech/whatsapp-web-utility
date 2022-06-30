@@ -50,7 +50,7 @@ This Chrome extension is designed to increase the level of productivity offered 
 
 This way, the user has one less reason to get away from their workflow and increase their productivity, ease of use and overall experience.
 
-## How It Was Made:
+## How It Was Made
 
 **Tech used:** HTML, CSS, JavaScript, Chrome API, WhatsApp API
 
@@ -86,7 +86,7 @@ This app is conceived to prioritize the ease of use and here's how it's broken d
 
 - The "Save" button is currently disabled and the ability for numbers and names to be saved, rendered, and to persist is currently under development and will be incorporated in future revisions. 
 
-## Lessons Learned:
+## Lessons Learned
 
 - Even though this app focuses on functionality and ease-of-use, the aesthetic part plays a very important role and significantly contributes to the user's overall experience.
 
