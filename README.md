@@ -2,7 +2,9 @@
 
 This is an app designed for productivity, adding user-friendly functionality to WhatsApp Web's API, packaged conveniently into a Chrome extension.
 
-**Link to project:** https://whatsapp-web-utility.netlify.app
+**Link to preview version:** https://whatsapp-web-utility.netlify.app
+### NOTE
+This is **not** the link to the app itself! **This is only a live preview**, for installation, refer to the section below.
 
 ![App Screenshot](/assets/Screenshot.png)
 
