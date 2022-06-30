@@ -5,7 +5,8 @@ This is an app designed for productivity, adding user-friendly functionality to 
 ![App Screenshot](/assets/Screenshot.png)
 
 **Link to preview version:** https://whatsapp-web-utility.netlify.app (**NOTE:** THIS IS **NOT** THE LINK TO THE APP ITSELF!
-**THIS IS ONLY A LIVE PREVIEW**
+**THIS IS ONLY A LIVE PREVIEW**.
+
 FOR INSTALLATION, PLEASE REFER TO THE SECTION BELOW.) 
 
 ## Installation
