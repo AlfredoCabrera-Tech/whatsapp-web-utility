@@ -51,7 +51,7 @@ However there's one flaw that disrupts the productivity flow:
 
 This Chrome extension is designed to increase the level of productivity offered by WhatsApp Web App allowing the user to simply type in the desired phone number and even the first message's text content and letting them decide if they want to open the new chat on a new tab or on the current one.
 
-This way, the user has one less reason to get away from their workflow and increase their productivity, ease of use and overall experience.
+This way, the user has one less reason to get away from their workflow; improving their ease of use and overall experience.
 
 ## How It Was Made
 
