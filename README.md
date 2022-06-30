@@ -4,8 +4,14 @@ This is an app designed for productivity, adding user-friendly functionality to 
 
 **Link to project:** https://whatsapp-web-utility.netlify.app
 
-
 ![App Screenshot](/assets/Screenshot.png)
+
+## 
+
+## Installation
+
+Check the [step-by-step installation guide](/Installation.md)
+
 
 
 ## Why It's Made
@@ -47,8 +53,6 @@ This app is conceived to prioritize the ease of use and here's how it's broken d
 -Currently on development-
 
 ## Optimizations
-
-
 
 ## Future Updates
 
