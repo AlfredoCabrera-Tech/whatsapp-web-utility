@@ -8,10 +8,7 @@ This is an app designed for productivity, adding user-friendly functionality to 
 
 ## Installation
 
-# Installation
-
 The installation process is simple. Since this extension is currently being approved by Google, it has to be installed as an "Unpacked" extension. Here's a step-by-step guide:
-
 
 1. Go towards the right panel on this site and click on the latest version under "Releases".
 
