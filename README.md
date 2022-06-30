@@ -4,7 +4,10 @@ This is an app designed for productivity, adding user-friendly functionality to 
 
 **Link to preview version:** https://whatsapp-web-utility.netlify.app
 ### NOTE
-This is **not** the link to the app itself! **This is only a live preview**, for installation, refer to the section below.
+
+THIS IS **NOT** THE LINK TO THE APP ITSELF!
+**THIS IS ONLY A LIVE PREVIEW**
+FOR INSTALLATION, PLEASE REFER TO THE SECTION BELOW. 
 
 ![App Screenshot](/assets/Screenshot.png)
 
