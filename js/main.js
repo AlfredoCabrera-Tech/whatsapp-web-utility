@@ -5,11 +5,12 @@ const btnOpen = document.querySelector('.btn-open')
 const btnTab = document.querySelector('.btn-tab')
 const btnSave = document.querySelector('.btn-save')
 
-
 /* OPEN IN A NEW TAB */
 let newTab = () => {
-  let phoneNum = `${countries.value}${inputNum.value}`
-   
+  
+  let rawNumber = inputNum.value.replace(/\D/g, '')
+  let phoneNum = `${countries.value}${rawNumber}`
+  
   if(inputMsg.value == ''){
     window.open(`https://wa.me/${phoneNum}`,'_blank')
     inputNum.value = ''
@@ -26,8 +27,9 @@ btnTab.addEventListener('click', newTab)
 
 /* OPEN IN THE SAME TAB */
 let open = () => {
-  let phoneNum = `${countries.value}${inputNum.value}`
-   
+  let rawNumber = inputNum.value.replace(/\D/g, '')
+  let phoneNum = `${countries.value}${rawNumber}`
+  
   if(inputMsg.value == ''){
     chrome.tabs.update({ url: `https://wa.me/${phoneNum}`})
     inputNum.value = ''
