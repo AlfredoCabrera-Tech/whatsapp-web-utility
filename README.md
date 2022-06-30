@@ -63,7 +63,7 @@ This app is conceived to prioritize the ease of use and here's how it's broken d
 
 - A drop-down menu populated by different countries, this will generate the appropriate prefix corresponding to each country's phone number system.
 - A text input field where the phone number will be typed (or pasted), designed to ignore any non-numeric character -thought to facilitate copying a number and pasting it here irrespective of the original format-.
-- A text area designed for the user to type in (or paste) the desired text content for the first message. This text gets processed and parsed into a URS digestible for WhatsApp Web API.
+- A text area designed for the user to type in (or paste) their desired text content for the first message. This text gets processed and parsed into a query string digestible for WhatsApp Web's API.
 - A button made to open the new chat on a new tab.
 - A button made to open the new chat on the current tab without altering that tab's current history, allowing the user to go back if desired.
 - A button made to save the number under a name typed by the user (currently on development).
