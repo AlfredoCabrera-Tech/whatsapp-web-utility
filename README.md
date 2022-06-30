@@ -10,7 +10,7 @@ This is an app designed for productivity, adding user-friendly functionality to 
 
 ## Installation
 
-Check the [step-by-step installation guide](/Installation.md)
+Check our [step-by-step installation guide](/Installation.md).
 
 
 
