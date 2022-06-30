@@ -8,13 +8,40 @@ This is an app designed for productivity, adding user-friendly functionality to 
 
 ## Installation
 
-Check our [step-by-step installation guide](/Installation.md).
+# Installation
+
+The installation process is simple. Since this extension is currently being approved by Google, it has to be installed as an "Unpacked" extension. Here's a step-by-step guide:
+
+
+1. Go towards the right panel on this site and click on the latest version under "Releases".
+
+2. Select the appropriate "Source code" option.
+   - ZIP version if you're using Windows or MacOS.
+   - tar.gz version if you're using Linux.
+
+3. After the file has downloaded, decompress the folder (Unzip it), it should create a new -unzipped- folder with the same name as the original file.
+
+4. Open Chrome Browser and navigate to [chrome://extensions](chrome://extensions).
+   
+   -  Alternatively, you can click on the Chrome menu, select "More Tools", and then select "Extensions".
+
+5. Toggle the switch to enable "Developer Mode" on the top-right corner.
+
+6. Click on "Load unpacked" and select the unzipped folder.
+
+#### Alternative way
+
+1. Alternatively, you can go to the top of the page and find the green button that reads "Code" over the top-right corner. Click it.
+
+2. Select the last option on the drop-down menu, the one that reads "Download ZIP".
+
+Continue regular steps 3 - 6 above.
 
 ## Current Working Version
 
 Current version is 1.1.0
 
-## Why It's Made
+## Why Was This App Made
 
 WhatsApp Web offers an amazing (and well established) app that makes for a great complement for their main version designed for mobile. It's a productivity tool that helps you stay in your PC and manage your chats from there.
 
@@ -26,7 +53,7 @@ This Chrome extension is designed to increase the level of productivity offered 
 
 This way, the user has one less reason to get away from their workflow and increase their productivity, ease of use and overall experience.
 
-## How It's Made:
+## How It Was Made:
 
 **Tech used:** HTML, CSS, JavaScript, Chrome API, WhatsApp API
 
