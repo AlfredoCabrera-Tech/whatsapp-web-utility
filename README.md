@@ -22,7 +22,7 @@ The installation process is simple. Since this extension is currently being appr
    
    -  Alternatively, you can click on the Chrome menu, select "More Tools", and then select "Extensions".
 
-5. Toggle the switch to enable "Developer Mode" located on the top-right corner.
+5. Toggle the switch to enable "Developer Mode" located at the top-right corner.
 
 6. Click on "Load unpacked" and select the unzipped folder.
 
