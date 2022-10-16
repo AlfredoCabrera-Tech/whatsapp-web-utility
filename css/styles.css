@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body{
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: #25D366;
+}
+
+input, textarea, select, option{
+  border-radius: 5px;
+  border: 1px solid #25D366;
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.5rem;
+}
