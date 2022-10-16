@@ -3,6 +3,12 @@
 body{
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   color: #075E54;
+  display: grid;
+  place-content: center;
+}
+
+h1{
+  color: #075E54;
 }
 
 input, textarea, select, option{
@@ -22,6 +28,7 @@ button.btn{
   border-radius: 5px;
   transition: all 0.3ms linear;
   cursor: pointer;
+  padding: 0.2rem 0.4rem;
 }
 
 button.btn:hover{
