@@ -13,7 +13,7 @@ input, textarea, select, option{
   padding: 0.4rem 0.5rem;
 }
 
-.btn{
+button.btn{
   background: #075E54;
   font: inherit;
   font-size: 0.8rem;
@@ -23,7 +23,7 @@ input, textarea, select, option{
   transition: all 0.3ms linear;
 }
 
-.btn:hover{
+button.btn:hover{
   color: #075E54;
   background: none;
 }
